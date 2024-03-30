@@ -2,7 +2,8 @@
 
 This Excel project aims to showcase certain trends that help a bike company understand their customers better which can help in increasing their sales. In this project, we look at a bike purchases dataset where we have information such as age, marital status, gender, education and more for each of the customers who made a purchase from a bike company. I started with cleaning the data, then analyzing it and creating pivot tables for different trends that can shed light on a customer's preferences and choices when it comes to buying a bike. I then used those pivot tables to create a bike sales dashboard for stakeholders.
 
-## Cleaning the data:
+
+## I. Cleaning the data:
 
 1. Removed duplicates by selecting the entire dataset and using the 'Remove Duplicates' built-in function in Excel. 
 2. Replaced the strings 'S' and 'M' in the Marital Status column with the strings 'Single' and 'Married' respectively.
@@ -20,4 +21,5 @@ A. Adolescent - for people who are 39 y.o or below.
 B. Middle Age - for people who are 40-64 y.o.
 C. Elderly - for people who are 65 and above.
 
-## Analyzing the data and creating pivot tables for different trends:
+
+## II. Analyzing the data and creating pivot tables for different trends:
