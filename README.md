@@ -9,7 +9,7 @@ This Excel project aims to showcase certain trends that help a bike company unde
 3. Replaced the strings 'M' and 'F' in the Gender column with the strings 'Male' and 'Female' respectively.
 4. Converted the values in the Income column to currency as well as decreased the decimal places to 0 (since the income values are all round numbers anyways).
 5. Replaced the string 'Bachelors' with the string "Bachelor's".
-6. Added a new column for Age Brackets since the data contains customers ranging from 25-89 y.o which can make it difficult to visualize. Creating age groups will help in creating a clearner visualization. To create the age brackets I used the following formula:
+6. Added a new column for Age Brackets since the data contains customers ranging from 25-89 y.o which can make it difficult to visualize. Creating age groups will help in creating a cleaner visualization. To create the age brackets I used the following formula:
 
 **   =IF(L2>=65, "Elderly 65+",IF(L2>=40, "Middle Age 40-64", IF(L2<40, "Adolescent 0-39", "Invalid")))**
 
@@ -19,3 +19,5 @@ The above formula is a nested IF statement that uses conditions that will return
 A. Adolescent - for people who are 39 y.o or below.
 B. Middle Age - for people who are 40-64 y.o.
 C. Elderly - for people who are 65 and above.
+
+## Analyzing the data and creating pivot tables for different trends:
