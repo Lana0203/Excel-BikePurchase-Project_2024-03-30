@@ -1,4 +1,4 @@
-# Excel-BikePurchase-Project_2024-03-30
+# Excel Bike Sales Project
 
 This Excel project aims to showcase certain trends that help a bike company understand their customers better which can help in increasing their sales. In this project, we look at a bike purchases dataset where we have information such as age, marital status, gender, education and more for each of the customers who made a purchase from a bike company. I started with cleaning the data, then analyzing it and creating pivot tables for different trends that can shed light on a customer's preferences and choices when it comes to buying a bike. I then used those pivot tables to create a bike sales dashboard for stakeholders.
 
