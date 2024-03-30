@@ -12,7 +12,7 @@ This Excel project aims to showcase certain trends that help a bike company unde
 5. Replaced the string 'Bachelors' with the string "Bachelor's".
 6. Added a new column for Age Brackets since the data contains customers ranging from 25-89 y.o which can make it difficult to visualize. Creating age groups will help in creating a cleaner visualization. To create the age brackets I used the following formula:
 
-**   =IF(L2>=65, "Elderly 65+",IF(L2>=40, "Middle Age 40-64", IF(L2<40, "Adolescent 0-39", "Invalid")))**
+**=IF(L2>=65, "Elderly 65+",IF(L2>=40, "Middle Age 40-64", IF(L2<40, "Adolescent 0-39", "Invalid")))**
 
 The above formula is a nested IF statement that uses conditions that will return a certain result if true. For example, for **IF(L2<40, "Adolescent 0-39", "Invalid")**, if the age in the cell is less than 40 then replace the cell with the string "Adolescent 0-39". If the conditional statement is false (e.g. the age is NOT below 40) then the cell will be replaced with the string 'Invalid'.
 
